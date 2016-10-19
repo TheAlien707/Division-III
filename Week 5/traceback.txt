@@ -1,0 +1,47 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+After initialization, but before game start.
+  File "game/MapScreens.rpy", line 77, in prepare_screen
+    screen quickNav: #quickNav bar at the bottom of the screen
+  File "game/MapScreens.rpy", line 77, in prepare
+    screen quickNav: #quickNav bar at the bottom of the screen
+  File "game/MapScreens.rpy", line 80, in prepare
+    imagemap:
+  File "game/MapScreens.rpy", line 80, in prepare
+    imagemap:
+  File "game/MapScreens.rpy", line 87, in prepare
+    hotspot (743, 180 148, 73) clicked Jump("quickBar_Zal") #Zal--> goes to dialogue w/ Zal
+SyntaxError: invalid syntax (game/MapScreens.rpy, line 87)
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "C:\Users\Shannon\Desktop\renpy-6.99.11-sdk\renpy\bootstrap.py", line 277, in bootstrap
+    renpy.main.main()
+  File "C:\Users\Shannon\Desktop\renpy-6.99.11-sdk\renpy\main.py", line 478, in main
+    run(restart)
+  File "C:\Users\Shannon\Desktop\renpy-6.99.11-sdk\renpy\main.py", line 85, in run
+    renpy.display.screen.prepare_screens()
+  File "C:\Users\Shannon\Desktop\renpy-6.99.11-sdk\renpy\display\screen.py", line 835, in prepare_screens
+    s.ast.prepare_screen()
+  File "game/MapScreens.rpy", line 77, in prepare_screen
+    screen quickNav: #quickNav bar at the bottom of the screen
+  File "game/MapScreens.rpy", line 77, in prepare
+    screen quickNav: #quickNav bar at the bottom of the screen
+  File "game/MapScreens.rpy", line 80, in prepare
+    imagemap:
+  File "game/MapScreens.rpy", line 80, in prepare
+    imagemap:
+  File "game/MapScreens.rpy", line 87, in prepare
+    hotspot (743, 180 148, 73) clicked Jump("quickBar_Zal") #Zal--> goes to dialogue w/ Zal
+  File "C:\Users\Shannon\Desktop\renpy-6.99.11-sdk\renpy\pyanalysis.py", line 697, in ast_eval
+    return self.ast_eval_literal(expr)[0]
+  File "C:\Users\Shannon\Desktop\renpy-6.99.11-sdk\renpy\pyanalysis.py", line 681, in ast_eval_literal
+    expr = py_compile(expr, 'eval', ast_node=True)
+  File "C:\Users\Shannon\Desktop\renpy-6.99.11-sdk\renpy\python.py", line 534, in py_compile
+    raise e
+SyntaxError: invalid syntax (game/MapScreens.rpy, line 87)
+
+Windows-8-6.2.9200
+Ren'Py 6.99.11.1749
+Div III 1.0
