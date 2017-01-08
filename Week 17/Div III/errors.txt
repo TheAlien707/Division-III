@@ -1,0 +1,9 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/MapScreens.rpy", line 50: u'show' is not a keyword argument or valid child for the imagemap statement.
+    show text ("Hello") at (56, 40, 137, 33)
+        ^
+
+Ren'Py Version: Ren'Py 6.99.11.1749
