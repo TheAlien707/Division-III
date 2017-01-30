@@ -1,0 +1,39 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/MapScreens.rpy", line 134, in script call
+    call lake
+  File "game/MapScreens.rpy", line 174, in script call
+    call forest
+  File "game/MapScreens.rpy", line 124, in script call
+    call mountain_clearing
+  File "game/MapScreens.rpy", line 144, in script call
+    call nadiasPlace
+  File "game/script.rpy", line 172, in script
+    if creditDue = False: ##player lied and said they were bringing the stuff
+SyntaxError: invalid syntax (game/script.rpy, line 172)
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/MapScreens.rpy", line 134, in script call
+    call lake
+  File "game/MapScreens.rpy", line 174, in script call
+    call forest
+  File "game/MapScreens.rpy", line 124, in script call
+    call mountain_clearing
+  File "game/MapScreens.rpy", line 144, in script call
+    call nadiasPlace
+  File "game/script.rpy", line 172, in script
+    if creditDue = False: ##player lied and said they were bringing the stuff
+  File "C:\Users\Shannon\Desktop\renpy-6.99.11-sdk\renpy\ast.py", line 1647, in execute
+    if renpy.python.py_eval(condition):
+  File "C:\Users\Shannon\Desktop\renpy-6.99.11-sdk\renpy\python.py", line 1669, in py_eval
+    code = py_compile(code, 'eval')
+  File "C:\Users\Shannon\Desktop\renpy-6.99.11-sdk\renpy\python.py", line 534, in py_compile
+    raise e
+SyntaxError: invalid syntax (game/script.rpy, line 172)
+
+Windows-8-6.2.9200
+Ren'Py 6.99.11.1749
+Div III 1.0
